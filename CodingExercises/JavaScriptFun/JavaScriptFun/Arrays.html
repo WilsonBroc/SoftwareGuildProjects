@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+<script type="text/javascript">
+    //var arr = new Array();
+    //var arr2 = new Array(20);
+    ////alert(arr.length);
+    ////alert(arr2.length);
+
+    //var arr3 = new Array("red", "blue", "green");
+    ////alert(arr3.length);
+    ////alert(arr3[1].toString());
+
+    //var arr4 = ["red", "blue", "green"];
+    //var arr5 = [];
+
+    //var colors = ["red"];
+    ////alert(colors[0]);
+    ////alert(colors.length);
+    //colors[1] = "black";
+    //colors[2] = "yellow";
+    //colors[3] = "brown";
+    //colors[4] = "purple";
+    ////alert(colors.length);
+    ////colors.length = 2;
+    ////alert(colors.length);
+    ////alert(colors[4]);
+
+    //if (Array.isArray(colors)) {
+    //    //alert("Yes, it's an array");
+    //}
+    ////alert(colors.toString());
+    ////alert(colors);
+    ////alert(colors.join("||"));
+
+    //var myColors = new Array();
+    //var count = myColors.push("red", "green");
+    //alert(count);
+    //alert(myColors);
+
+    //count = myColors.push("black");
+    //alert(count);
+    //alert(myColors);
+
+    //var item = myColors.pop(); //get the last item in the array
+    //alert(item);
+    //alert(myColors.length);
+
+    //myColors.push("black");
+    //alert(myColors);
+
+    //var nextItem = myColors.shift();
+    //alert(nextItem);
+    //alert(myColors.length);
+
+    //myColors.unshift("purple");
+    //alert(myColors);
+
+    //var nums = [1, 2, 3, 4, 5];
+    //nums.reverse();
+    //alert(nums);
+
+    //var nums2 = [0, 1, 5, 10, 15];
+    //nums2.sort();
+    //alert(nums2);
+
+    //function compare(value1, value2) {
+    //    if (value1 < value2) {
+    //        return -1;
+    //    } else if (value1 > value2) {
+    //        return 1;
+    //    } else {
+    //        return 0;
+    //    }
+    //}
+
+    //var values = [0, 1, 5, 10, 15, 6, 43, 4];
+    //values.sort(compare);
+    //alert(values);
+
+    //var colors = ["red", "green", "blue"];
+    //var colors2 = colors.concat("yellow", "orange", ["black", "brown"]);
+    ////alert(colors);
+    //alert(colors2);
+
+    //var colors3 = colors2.slice(2,4);
+    //alert(colors3);
+
+    var colors = ["red", "green", "blue"];
+    var removed = colors.splice(0, 1);
+    alert(colors);
+    alert(removed);
+
+    removed = colors.splice(1, 0, "yellow", "orange");
+    alert(colors);
+    alert(removed);
+
+    removed = colors.splice(1, 1, "red", "purple");
+    alert(colors);
+    alert(removed);
+
+</script>
+</body>
+</html>

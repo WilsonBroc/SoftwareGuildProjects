@@ -1,0 +1,9 @@
+C:\Users\23601\Desktop\MyStuff\softwareguildprojects\BankingApplication\SGBank - Broc\SGBank.Data\bin\Debug\SGBank.Data.dll
+C:\Users\23601\Desktop\MyStuff\softwareguildprojects\BankingApplication\SGBank - Broc\SGBank.Data\bin\Debug\SGBank.Data.pdb
+C:\Users\23601\Desktop\MyStuff\softwareguildprojects\BankingApplication\SGBank - Broc\SGBank.Data\bin\Debug\SGBank.Models.dll
+C:\Users\23601\Desktop\MyStuff\softwareguildprojects\BankingApplication\SGBank - Broc\SGBank.Data\bin\Debug\SGBank.Models.pdb
+C:\Users\23601\Desktop\MyStuff\softwareguildprojects\BankingApplication\SGBank - Broc\SGBank.Data\obj\Debug\SGBank.Data.csprojResolveAssemblyReference.cache
+C:\Users\23601\Desktop\MyStuff\softwareguildprojects\BankingApplication\SGBank - Broc\SGBank.Data\obj\Debug\SGBank.Data.csproj.CoreCompileInputs.cache
+C:\Users\23601\Desktop\MyStuff\softwareguildprojects\BankingApplication\SGBank - Broc\SGBank.Data\obj\Debug\SGBank.Data.csproj.CopyComplete
+C:\Users\23601\Desktop\MyStuff\softwareguildprojects\BankingApplication\SGBank - Broc\SGBank.Data\obj\Debug\SGBank.Data.dll
+C:\Users\23601\Desktop\MyStuff\softwareguildprojects\BankingApplication\SGBank - Broc\SGBank.Data\obj\Debug\SGBank.Data.pdb

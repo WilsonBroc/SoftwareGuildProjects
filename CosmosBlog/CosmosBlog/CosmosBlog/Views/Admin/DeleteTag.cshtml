@@ -1,0 +1,22 @@
+﻿@model CosmosBlog.Models.Tag
+@{
+    ViewBag.Title = "Delete Tag";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <h3>Delete Tag</h3>
+        @Html.ActionLink("Return to Tags List", "ManageTags", "Admin")
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        @using (Html.BeginForm())
+        {
+            @Html.HiddenFor(m => m.TagID)
+            <p>Are you sure that you wish to delete the tag named @Html.DisplayFor(m => m.TagName)?</p>
+            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+            @Html.ActionLink("Cancel", "ManageTags", "Admin", null, new { @class = "btn btn-sm btn-info" })
+        }
+    </div>
+</div>

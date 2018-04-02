@@ -1,0 +1,9 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1682" measuredH="670" mockupW="1523" mockupH="670">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::SiteMap" x="159" y="0" w="-1" h="-1" measuredW="1523" measuredH="670" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Homepage%0A-About%28Static%20Page%29%0A-Disclaimer%28Static%20Page%29%0A-Discover%20the%20Cosmos%28Posts%29%0A--Blog%20Posts%0A---Single%20Post%0A-Log%20In/Log%20Off%0A--Marketing%20Manager%0A---Add%20Blog%20Post/Look%20At%20Previous%20Blog%20Posts%0A--Admin%0A---Pending/Approved/Disapproved/Incomplete/Revisions%20Needed/Create%20a%20Static%20page%0A----Choose%20Post%0A-----Choose%20Option%28Approve/Disapprove/Revisions%29%0A----Add%20Page%20Form%28For%20Static%20Pages%29%0A-----Page%20Added%0A-More%0A--List%20of%20Static%20Pages</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,314 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1342" measuredH="887" mockupW="1273" mockupH="851">
+  <controls>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="69" y="93" w="615" h="794" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+        <value>0</value>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::SubTitle" x="90" y="174" w="113" h="-1" measuredW="106" measuredH="27" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>COSMOS</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::HRule" x="74" y="788" w="602" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Label" x="366" y="818" w="76" h="-1" measuredW="68" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Footer%20Text</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Paragraph" x="142" y="320" w="330" h="65" measuredW="275" measuredH="80" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Praesent%20tempus%2C%20ipsum%20nec%20consectetur%20lacinia%2C%20erat%20magna%20porta%20felis%2C%20non%20feugiat%20dolor%20nunc%20vitae%20risus.%20Sed%20ac%20urna%20et%20tellus%20ultrices%20molestie%20vel%20quis%20libero.%20Vestibulum%20et%20pellentesque%20dolor.%20Cras%20vehicula%20dolor%20sagittis%20finibus%20sagittis.%20Nunc%20in%20mi%20eget%20magna%20accumsan%20lacinia%20nec%20ac%20est.%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Label" x="245" y="277" w="142" h="-1" measuredW="132" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1/1/2016%20by%20%5Busername%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::LinkBar" x="401" y="177" w="-1" h="-1" measuredW="265" measuredH="19" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>0</borderColor>
+        <selectedIndex>4</selectedIndex>
+        <text>Home%2C%20About%2C%20Disclaimer%2C%20Blog%2C%20Admin</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="21" controlTypeID="__group__" x="245" y="297" w="133" h="12" measuredW="133" measuredH="12" zOrder="7" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="133" h="12" measuredW="133" measuredH="12" zOrder="0" locked="false" isInGroup="21">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="0" w="133" h="12" measuredW="275" measuredH="80" zOrder="0" locked="false" isInGroup="0">
+              <controlProperties>
+                <size>10</size>
+                <text>%5Bspace%5D%20%5Bplanets%5D%20%5Bvenus%5D%20%5Baliens%5D</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::SubTitle" x="536" y="336" w="90" h="-1" measuredW="90" measuredH="21" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Categories</text>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Paragraph" x="536" y="363" w="105" h="166" measuredW="275" measuredH="80" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <text>%5Bspace%5D%20%5Bplanets%5D%20%5Bvenus%5D%20%5Baliens%5D%20%5Bmars%5D%20%5Bnews%5D%20%5Btheory%5D%20%5Bscience%5D%20%5Bx-files%5D%20%5Bspace%5D%20%5Bplanets%5D%20%5Bastronauts%5D%20%5Baliens%5D%20%5Bmars%5D%20%5Bnews%5D%20%5Btheory%5D%20%5Bscience%5D%20%5Bx-files%5D%20%5Bspace%5D%20%5Bplanets%5D%20%5Bastronauts%5D%20%5Baliens%5D%20%5Bmars%5D%20%5Bnews%5D%20%5Btheory%5D%20%5Bscience%5D%20%5Bx-files%5D%20%5Bspace%5D%20%5Bplanets%5D%20%5Bastronauts%5D%20%5Baliens%5D%20%5Bmars%5D%20%5Bnews%5D%20%5Btheory%5D%20%5Bscience%5D%20%5Bx-files%5D%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::Title" x="245" y="250" w="104" h="-1" measuredW="103" measuredH="27" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>Post%20Title</text>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::Paragraph" x="142" y="464" w="330" h="65" measuredW="275" measuredH="80" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Praesent%20tempus%2C%20ipsum%20nec%20consectetur%20lacinia%2C%20erat%20magna%20porta%20felis%2C%20non%20feugiat%20dolor%20nunc%20vitae%20risus.%20Sed%20ac%20urna%20et%20tellus%20ultrices%20molestie%20vel%20quis%20libero.%20Vestibulum%20et%20pellentesque%20dolor.%20Cras%20vehicula%20dolor%20sagittis%20finibus%20sagittis.%20Nunc%20in%20mi%20eget%20magna%20accumsan%20lacinia%20nec%20ac%20est.%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::Label" x="251" y="426" w="142" h="-1" measuredW="132" measuredH="21" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1/1/2016%20by%20%5Busername%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="53" controlTypeID="__group__" x="251" y="446" w="133" h="12" measuredW="133" measuredH="12" zOrder="13" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="133" h="12" measuredW="133" measuredH="12" zOrder="0" locked="false" isInGroup="53">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="0" w="133" h="12" measuredW="275" measuredH="80" zOrder="0" locked="false" isInGroup="0">
+              <controlProperties>
+                <size>10</size>
+                <text>%5Bspace%5D%20%5Bplanets%5D%20%5Bvenus%5D%20%5Baliens%5D</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Title" x="251" y="399" w="104" h="-1" measuredW="103" measuredH="27" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>Post%20Title</text>
+      </controlProperties>
+    </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Paragraph" x="142" y="608" w="330" h="65" measuredW="275" measuredH="80" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Praesent%20tempus%2C%20ipsum%20nec%20consectetur%20lacinia%2C%20erat%20magna%20porta%20felis%2C%20non%20feugiat%20dolor%20nunc%20vitae%20risus.%20Sed%20ac%20urna%20et%20tellus%20ultrices%20molestie%20vel%20quis%20libero.%20Vestibulum%20et%20pellentesque%20dolor.%20Cras%20vehicula%20dolor%20sagittis%20finibus%20sagittis.%20Nunc%20in%20mi%20eget%20magna%20accumsan%20lacinia%20nec%20ac%20est.%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Paragraph" x="142" y="753" w="330" h="34" measuredW="275" measuredH="80" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Praesent%20tempus%2C%20ipsum%20nec%20consectetur%20lacinia%2C%20erat%20magna%20porta%20felis%2C%20non%20feugiat%20dolor%20nunc%20vitae%20risus.%20Sed%20ac%20urna%20et%20tellus%20ultrices%20molestie%20vel%20quis%20libero.%20Vestibulum%20et%20pellentesque%20dolor.%20Cras%20vehicula%20dolor%20sagittis%20finibus%20sagittis.%20Nunc%20in%20mi%20eget%20magna%20accumsan%20lacinia%20nec%20ac%20est.%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::Title" x="259" y="36" w="-1" h="-1" measuredW="257" measuredH="43" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>BLOG%20POSTS</text>
+      </controlProperties>
+    </control>
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::Title" x="861" y="36" w="-1" h="-1" measuredW="347" measuredH="43" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>INDIVIDUAL%20POST</text>
+      </controlProperties>
+    </control>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="727" y="93" w="615" h="794" measuredW="450" measuredH="400" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+        <value>0</value>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::SubTitle" x="748" y="174" w="113" h="-1" measuredW="106" measuredH="27" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>COSMOS</text>
+      </controlProperties>
+    </control>
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::HRule" x="731" y="788" w="602" h="-1" measuredW="100" measuredH="10" zOrder="21" locked="false" isInGroup="-1"/>
+    <control controlID="69" controlTypeID="com.balsamiq.mockups::Label" x="1023" y="818" w="76" h="-1" measuredW="68" measuredH="21" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Footer%20Text</text>
+      </controlProperties>
+    </control>
+    <control controlID="70" controlTypeID="com.balsamiq.mockups::Title" x="800" y="239" w="173" h="-1" measuredW="172" measuredH="43" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Post%20Title</text>
+      </controlProperties>
+    </control>
+    <control controlID="71" controlTypeID="com.balsamiq.mockups::Paragraph" x="800" y="543" w="334" h="248" measuredW="275" measuredH="80" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Praesent%20tempus%2C%20ipsum%20nec%20consectetur%20lacinia%2C%20erat%20magna%20porta%20felis%2C%20non%20feugiat%20dolor%20nunc%20vitae%20risus.%20Sed%20ac%20urna%20et%20tellus%20ultrices%20molestie%20vel%20quis%20libero.%20Vestibulum%20et%20pellentesque%20dolor.%20Cras%20vehicula%20dolor%20sagittis%20finibus%20sagittis.%20Nunc%20in%20mi%20eget%20magna%20accumsan%20lacinia%20nec%20ac%20est.%20%0A%20%0ANunc%20condimentum%20enim%20vitae%20risus%20vulputate%2C%20a%20cursus%20massa%20pellentesque.%20Sed%20et%20iaculis%20velit.%20Cras%20at%20felis%20molestie%2C%20pellentesque%20ligula%20a%2C%20porttitor%20purus.%20Interdum%20et%20malesuada%20fames%20ac%20ante%20ipsum%20primis%20in%20faucibus.%20Mauris%20in%20maximus%20magna%2C%20ac%20rhoncus%20ex.%20Morbi%20non%20consectetur%20nulla.%20Vestibulum%20dapibus%20tellus%20odio%2C%20ut%20sagittis%20urna%20ullamcorper%20id.%20Donec%20volutpat%2C%20justo%20id%20posuere%20placerat%2C%20justo%20arcu%20blandit%20risus%2C%20eu%20blandit%20mi%20ligula%20nec%20est.%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::Label" x="800" y="288" w="142" h="-1" measuredW="132" measuredH="21" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1/1/2016%20by%20%5Busername%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::LinkBar" x="1058" y="177" w="-1" h="-1" measuredW="265" measuredH="19" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>0</borderColor>
+        <selectedIndex>4</selectedIndex>
+        <text>Home%2C%20About%2C%20Disclaimer%2C%20Blog%2C%20Admin</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="74" controlTypeID="__group__" x="800" y="308" w="133" h="12" measuredW="133" measuredH="12" zOrder="27" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="133" h="12" measuredW="133" measuredH="12" zOrder="0" locked="false" isInGroup="74">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="0" w="133" h="12" measuredW="275" measuredH="80" zOrder="0" locked="false" isInGroup="0">
+              <controlProperties>
+                <size>10</size>
+                <text>%5Bspace%5D%20%5Bplanets%5D%20%5Bvenus%5D%20%5Baliens%5D</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="75" controlTypeID="com.balsamiq.mockups::SubTitle" x="1187" y="336" w="90" h="-1" measuredW="90" measuredH="21" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Categories</text>
+      </controlProperties>
+    </control>
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::Paragraph" x="1187" y="363" w="105" h="164" measuredW="275" measuredH="80" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <text>%5Bspace%5D%20%5Bplanets%5D%20%5Bvenus%5D%20%5Baliens%5D%20%5Bmars%5D%20%5Bnews%5D%20%5Btheory%5D%20%5Bscience%5D%20%5Bx-files%5D%20%5Bspace%5D%20%5Bplanets%5D%20%5Bastronauts%5D%20%5Baliens%5D%20%5Bmars%5D%20%5Bnews%5D%20%5Btheory%5D%20%5Bscience%5D%20%5Bx-files%5D%20%5Bspace%5D%20%5Bplanets%5D%20%5Bastronauts%5D%20%5Baliens%5D%20%5Bmars%5D%20%5Bnews%5D%20%5Btheory%5D%20%5Bscience%5D%20%5Bx-files%5D%20%5Bspace%5D%20%5Bplanets%5D%20%5Bastronauts%5D%20%5Baliens%5D%20%5Bmars%5D%20%5Bnews%5D%20%5Btheory%5D%20%5Bscience%5D%20%5Bx-files%5D%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="77" controlTypeID="com.balsamiq.mockups::SubTitle" x="1187" y="558" w="120" h="-1" measuredW="114" measuredH="21" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Related%20Posts</text>
+      </controlProperties>
+    </control>
+    <control controlID="78" controlTypeID="__group__" x="1187" y="589" w="117" h="63" measuredW="117" measuredH="63" zOrder="31" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="0" w="92" h="-1" measuredW="56" measuredH="16" zOrder="0" locked="false" isInGroup="78">
+          <controlProperties>
+            <size>13</size>
+            <text>Post%20Title</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="16" w="117" h="47" measuredW="275" measuredH="80" zOrder="1" locked="false" isInGroup="78">
+          <controlProperties>
+            <size>9</size>
+            <text>Content%20here%2C%20content%20here%2C%20making%20it%20look%20like%20readable%20English.%20Many%20desktop%20publishing...</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="79" controlTypeID="__group__" x="1187" y="659" w="117" h="63" measuredW="117" measuredH="63" zOrder="32" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="0" w="92" h="-1" measuredW="56" measuredH="16" zOrder="0" locked="false" isInGroup="79">
+          <controlProperties>
+            <size>13</size>
+            <text>Post%20Title</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="16" w="117" h="47" measuredW="275" measuredH="80" zOrder="1" locked="false" isInGroup="79">
+          <controlProperties>
+            <size>9</size>
+            <text>Content%20here%2C%20content%20here%2C%20making%20it%20look%20like%20readable%20English.%20Many%20desktop%20publishing...</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::Image" x="800" y="335" w="349" h="196" measuredW="565" measuredH="318" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <src>./assets/Mars.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="82" controlTypeID="com.balsamiq.mockups::Image" x="142" y="398" w="94" h="56" measuredW="565" measuredH="318" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <src>./assets/Mars.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="83" controlTypeID="com.balsamiq.mockups::Label" x="251" y="566" w="142" h="-1" measuredW="132" measuredH="21" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1/1/2016%20by%20%5Busername%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="84" controlTypeID="__group__" x="251" y="586" w="133" h="12" measuredW="133" measuredH="12" zOrder="36" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="133" h="12" measuredW="133" measuredH="12" zOrder="0" locked="false" isInGroup="84">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="0" w="133" h="12" measuredW="275" measuredH="80" zOrder="0" locked="false" isInGroup="0">
+              <controlProperties>
+                <size>10</size>
+                <text>%5Bspace%5D%20%5Bplanets%5D%20%5Bvenus%5D%20%5Baliens%5D</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="85" controlTypeID="com.balsamiq.mockups::Title" x="251" y="539" w="104" h="-1" measuredW="103" measuredH="27" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>Post%20Title</text>
+      </controlProperties>
+    </control>
+    <control controlID="86" controlTypeID="com.balsamiq.mockups::Image" x="142" y="538" w="94" h="56" measuredW="565" measuredH="318" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <src>./assets/Mars.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="87" controlTypeID="com.balsamiq.mockups::Label" x="251" y="716" w="142" h="-1" measuredW="132" measuredH="21" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1/1/2016%20by%20%5Busername%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="88" controlTypeID="__group__" x="251" y="736" w="133" h="12" measuredW="133" measuredH="12" zOrder="40" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="133" h="12" measuredW="133" measuredH="12" zOrder="0" locked="false" isInGroup="88">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="0" w="133" h="12" measuredW="275" measuredH="80" zOrder="0" locked="false" isInGroup="0">
+              <controlProperties>
+                <size>10</size>
+                <text>%5Bspace%5D%20%5Bplanets%5D%20%5Bvenus%5D%20%5Baliens%5D</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="89" controlTypeID="com.balsamiq.mockups::Title" x="251" y="689" w="104" h="-1" measuredW="103" measuredH="27" zOrder="41" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>Post%20Title</text>
+      </controlProperties>
+    </control>
+    <control controlID="90" controlTypeID="com.balsamiq.mockups::Image" x="142" y="688" w="94" h="56" measuredW="565" measuredH="318" zOrder="42" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <src>./assets/Mars.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="91" controlTypeID="com.balsamiq.mockups::Image" x="142" y="250" w="94" h="59" measuredW="500" measuredH="365" zOrder="43" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <src>./assets/spacecat.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

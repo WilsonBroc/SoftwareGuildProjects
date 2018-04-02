@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+<h1>Generic Home Page</h1>
+<noscript>This page requires javascript to be enabled.</noscript>
+<script type="text/javascript">
+    //function sayHi() {
+    //    var message = 1;
+    //    boolVal = isNaN(message);
+    //}
+
+    //sayHi();
+    //console.log(boolVal);
+
+    //alert(isNaN(NaN));
+    //alert(isNaN(10));
+    //alert(isNaN("10"));
+    //alert(isNaN("blue"));
+    //alert(isNaN(true));
+
+    //alert(parseFloat(""));
+    //alert(parseFloat("0xA"));
+    //alert(parseFloat(22.5));
+    //alert(parseFloat("1234blue5678"));
+    //alert(parseFloat("0908.5"));
+    //alert(parseFloat("2.134e7"));
+    //alert(parseFloat("3.13.135"));
+
+    //var age = 11
+    //var stringAge = age.toString();
+    //var found = true;
+    //var foundString = found.toString();
+    //var obj = new Object();
+
+    //var s1 = '2';
+    //var s2 = '3';
+
+    //s1++;
+    //s2--;
+
+    //var b = false;
+    //alert(b);
+    //b++;
+    //alert(b);
+
+    //s1 = -s1;
+    //alert(s1);
+
+    //alert(!false);
+    //alert(!'');
+
+    /*
+    var myVar = 10;
+    var myOtherVar = "10";
+
+    alert(myVar == myOtherVar);
+    alert(myVar === myOtherVar);
+    */
+    //var i = 100;
+    //if (i > 25) {
+    //    alert("Greater than 25");
+    //} else if (i < 0) {
+    //    alert("Less than zero");
+    //} else {
+    //    alert("Between 0 and 25");
+    //}
+
+    //var count = 10;
+    //function loop() {
+    //    for (var i = 0; i < count; i++) {
+    //        alert(i);
+    //    }
+    //}
+
+    //loop();
+    //alert(i);
+
+    //for (var propName in window) {
+    //    document.write(propName + '<br/>');
+    //}
+
+    //function diff(num1, num2) {
+    //    if (num1 < num2) {
+    //        return num2 - num1;
+    //    } else {
+    //        return "Nope!  Too bad!";
+    //    }
+    //}
+
+    //document.write(diff(4, 10));
+
+    function doAdd(num1, num2) {
+        if (arguments.length == 1) {
+            document.write(num1 + 10);
+            document.write("<br/>");
+        } else if (arguments.length == 2) {
+            document.write(num1 + num2);
+            document.write("<br/>");
+        } else if (arguments.length == 3) {
+            document.write(arguments[0] + num2 + arguments[2]);
+            document.write("<br/>");
+        } else {
+            document.write("Go Away!");
+            document.write("<br/>");
+        }
+    }
+
+    function doAdd() {
+        document.write("Ha ");
+    }
+
+    doAdd(10);
+    doAdd(10, 40);
+    doAdd(10, 40, 100);
+    doAdd(10, 40, 100, 1000);
+
+</script>
+    <script src="Scripts/jquery-1.10.2.js"></script>
+</body>
+</html>

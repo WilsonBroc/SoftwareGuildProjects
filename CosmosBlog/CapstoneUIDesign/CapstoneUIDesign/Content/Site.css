@@ -1,0 +1,78 @@
+﻿
+@media (min-width:1200px) {
+    #backImage {
+        height: 850px;
+        margin-top: -150px
+    }
+}
+    
+
+    #mainTitle {
+        position: absolute; bottom: 150px;
+        text-shadow: 3px 3px 20px black
+    }
+
+@media (max-width:1199px) {
+    #backImage {
+        height: 600px;
+        margin-top: -150px
+    }
+}
+
+@media (max-width:750px) {
+    #backImage {
+        height: 350px;
+        margin-top: -150px
+    }
+}
+
+.navbar-inverse {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-color: transparent;
+}
+
+h1{
+    font-size: 95px;
+    font-weight: bolder
+}
+
+h2,h3,h4,h5,h6 {
+    margin-top: 0px;
+    font-weight: bolder
+
+}
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal
+    
+}
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+#backImage {
+    background-image: url('https://wallpaperscraft.com/image/astronaut_suit_man_59630_1920x1080.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}

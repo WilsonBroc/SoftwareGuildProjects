@@ -1,0 +1,22 @@
+﻿@model CosmosBlog.Models.Post
+@{
+    ViewBag.Title = "Delete Post";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <h3>Delete Post</h3>
+        @*@Html.ActionLink("Return to Edit Posts", "EditPosts", "Admin")*@
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        @using (Html.BeginForm())
+        {
+            @Html.HiddenFor(m => m.PostID)
+            <p>Are you sure that you wish to delete the post titled "@Html.DisplayFor(m => m.Title)"?</p>
+            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+            @Html.ActionLink("Cancel", "EditPosts", "Admin", null, new { @class = "btn btn-sm btn-info" })
+        }
+    </div>
+</div>

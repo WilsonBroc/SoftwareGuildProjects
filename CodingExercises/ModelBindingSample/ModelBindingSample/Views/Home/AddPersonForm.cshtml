@@ -1,0 +1,32 @@
+﻿@model ModelBindingSample.Models.Person
+
+@{
+    ViewBag.Title = "AddPersonForm";
+}
+
+<h2>AddPersonForm</h2>
+
+@using (Html.BeginForm("AddPersonFormResult", "Home", FormMethod.Post))
+{
+    <div class="form-horizontal">
+        <div class="form-group">
+            @Html.LabelFor(m => m.PersonId, new {@class = "control-label col-md-2"})
+            <div class="col-md-10">
+                @Html.EditorFor(m => m.PersonId, new {@class = "form-control"})
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.FirstName, new {@class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(m => m.FirstName, new {@class = "form-control"})
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.LastName, new {@class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(m => m.LastName, new {@class = "form-control"})
+            </div>
+        </div>
+        <input type="submit" value="Create" class="btn btn-default"/>
+    </div>
+}

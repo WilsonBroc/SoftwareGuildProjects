@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "ReadingData";
+}
+
+<h2>Reading Data</h2>
+
+<div>
+    <input id="name" type="text"/>
+    <button id="btnShowValue">Show Value</button>
+</div>
+
+@section scripts{
+    <script>
+        $(document)
+            .ready(function() {
+                $('#btnShowValue')
+                    .click(function() {
+                        alert($('#name').val());
+                    });
+            });
+    </script>
+}

@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>My Contacts</h2>
+
+<div class="container">
+    <div class="row">
+        <h3>All Contacts</h3>
+        <div class="row">
+            <div class="col-xs-12">
+                @Html.Partial("_CreateContactModal")
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary btn-sm" id="btnShowAddContact">Add Contact</button><br/><br/>
+        <table id="contacts" class="table table-striped table-bordered">
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Phone</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+
+
+@section scripts
+{
+    <script>
+        var contactPath = '/api/contacts/';
+
+        function loadContacts() {
+            $.getJSON(contactPath)
+                .done(function (data) {
+
+                    $('#contacts tbody tr').remove();
+
+                    $.each(data,
+                        function(index, contact) {
+                            $(createRow(contact)).appendTo($('#contacts tbody'));
+                        });
+                });
+        };
+
+        function createRow(contact) {
+            return '<tr><td>' +
+                contact.ContactId +
+                '</td><td>' +
+                contact.Name +
+                '</td><td>' +
+                contact.PhoneNumber +
+                '</td></tr>';
+        };
+
+        $(document)
+            .ready(function() {
+                loadContacts();
+            });
+    </script>
+    <script src="~/Scripts/app/createContact.js"></script>
+}

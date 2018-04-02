@@ -1,0 +1,16 @@
+﻿@model ModelBindingSample.Models.Person
+
+@{
+    ViewBag.Title = "AddPerson";
+}
+
+<h2>AddPerson</h2>
+<hr/>
+<div>
+    <dl class="dl-horizontal">
+        <dt>@Html.DisplayNameFor(m => m.FirstName)</dt>
+        <dd>@Html.DisplayFor(m=>m.FirstName)</dd>
+        <dt>@Html.DisplayNameFor(m => m.LastName)</dt>
+        <dd>@Html.DisplayFor(m=>m.LastName)</dd>
+    </dl>
+</div>

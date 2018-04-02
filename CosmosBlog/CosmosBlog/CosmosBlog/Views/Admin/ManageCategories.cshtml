@@ -1,0 +1,53 @@
+﻿@model List<CosmosBlog.Models.Category>
+
+@{
+    ViewBag.Title = "ManageCategories";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-1"> @*Empty div for left side*@</div>
+        <div class="col-sm-9">
+
+            @* This is where the posts begin*@
+            <br/>
+            <h1>All Categories</h1>
+            <div class="col-sm-10">
+                <div class="row" style="margin-bottom: 20px">
+                    <table class="table table-responsive">
+                        <thead>
+                        <tr>
+                            <th>Category ID</th>
+                            <th>Category Name</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        @foreach (var category in Model)
+                        {
+                            if (category.CategoryName == "General")
+                             {
+                                 <tr>
+                                     <td>@category.CategoryID</td>
+                                     <td>@category.CategoryName&nbsp;&nbsp;<span class="badge">@category.NumberOfPosts</span></td>
+                                     <td></td>
+                                 </tr>
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td>@category.CategoryID</td>
+                                    <td>@category.CategoryName&nbsp;&nbsp;<span class="badge">@category.NumberOfPosts</span></td>
+                                    <td>@Html.ActionLink("Edit", "EditCategory", "Admin", new { id = category.CategoryID }, null) | @Html.ActionLink("Delete", "DeleteCategory", "Admin", new { id = category.CategoryID }, null)</td>
+                                </tr>
+                            }
+
+                        }
+                        </tbody>
+                    </table>
+                    @Html.ActionLink("Add A Category","AddCategory","Admin",null, new {@class="btn btn-success"})
+                </div>
+            </div>           
+        </div>
+    </div>
+</div>

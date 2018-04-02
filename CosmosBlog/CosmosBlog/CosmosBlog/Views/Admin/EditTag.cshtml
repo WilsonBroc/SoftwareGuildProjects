@@ -1,0 +1,24 @@
+﻿@model CosmosBlog.Models.Tag
+@{
+    ViewBag.Title = "EditTag";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <h2>Edit Tag</h2>
+        @Html.ActionLink("Return to Tags List", "ManageTags", "Admin")
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        @using (Html.BeginForm())
+        {
+            @Html.HiddenFor(m => m.TagID);
+            <div class="form-group">
+                <label>Edit Tag Name</label>
+                @Html.TextBoxFor(m => m.TagName, new { @class = "form-control", placeholder = "" })
+            </div>
+            <button type="submit" class="btn btn-sm btn-primary">Save</button>
+        }
+    </div>
+</div>

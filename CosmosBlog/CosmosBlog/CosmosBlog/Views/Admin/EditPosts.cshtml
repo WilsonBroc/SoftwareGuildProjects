@@ -1,0 +1,66 @@
+﻿@using CosmosBlog.Models
+@model List<CosmosBlog.Models.Post>
+@{
+    ViewBag.Title = "Manage Tags";
+}
+<div class="col-sm-1"> @*Empty div for left side*@</div>
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="col-sm-1"> @*Empty div for left side*@</div>
+        <div class="col-sm-11">
+
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-1"> @*Empty div for left side*@</div>
+    <div class="col-xs-11">
+        <h1>Manage Blog Posts</h1>
+        @Html.ActionLink("Return Home", "Index", "Home")<br /><br />
+        <table class="table table-striped" style="width: auto;">
+            <thead>
+                <tr>
+
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Date Created</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var post in Model)
+            {
+                    <tr>
+                        @Html.HiddenFor(m => post.PostID)
+                        <td>@post.Title</td>
+                        <td>@post.Description</td>
+                        <td>@post.DateCreated.ToString("MM/dd/yyyy")</td>
+                        <td>
+                            @Html.ActionLink("Edit", "EditPost", "Admin", new { id = post.PostID }, null) |
+                            @Html.ActionLink("Delete", "DeletePost", "Admin", new { id = post.PostID }, null)
+                        </td>
+                    </tr>
+
+                }
+                <tr><td>@Html.ActionLink("Create New Post", "AddNewPost", "Admin", null, new { @class = "btn btn-primary" })</td></tr>
+            </tbody>
+        </table>
+
+
+    </div>
+</div>
+
+@section scripts{
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.1/summernote.css" rel="stylesheet">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.1/summernote.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#summernote').summernote({
+                height: 600
+            });
+        });
+
+       @*@model.PostContent =  $('#summernote').val();*@
+    </script>
+}

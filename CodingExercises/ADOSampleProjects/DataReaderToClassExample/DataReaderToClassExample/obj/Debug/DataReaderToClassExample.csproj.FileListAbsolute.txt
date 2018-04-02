@@ -1,0 +1,8 @@
+C:\_repos\akron-dotnet-april-2016-materials\ADOSampleProjects\DataReaderToClassExample\DataReaderToClassExample\bin\Debug\DataReaderToClassExample.exe.config
+C:\_repos\akron-dotnet-april-2016-materials\ADOSampleProjects\DataReaderToClassExample\DataReaderToClassExample\bin\Debug\DataReaderToClassExample.exe
+C:\_repos\akron-dotnet-april-2016-materials\ADOSampleProjects\DataReaderToClassExample\DataReaderToClassExample\bin\Debug\DataReaderToClassExample.pdb
+C:\_repos\akron-dotnet-april-2016-materials\ADOSampleProjects\DataReaderToClassExample\DataReaderToClassExample\bin\Debug\Northwind.DataLayer.dll
+C:\_repos\akron-dotnet-april-2016-materials\ADOSampleProjects\DataReaderToClassExample\DataReaderToClassExample\bin\Debug\Northwind.DataLayer.pdb
+C:\_repos\akron-dotnet-april-2016-materials\ADOSampleProjects\DataReaderToClassExample\DataReaderToClassExample\obj\Debug\DataReaderToClassExample.csprojResolveAssemblyReference.cache
+C:\_repos\akron-dotnet-april-2016-materials\ADOSampleProjects\DataReaderToClassExample\DataReaderToClassExample\obj\Debug\DataReaderToClassExample.exe
+C:\_repos\akron-dotnet-april-2016-materials\ADOSampleProjects\DataReaderToClassExample\DataReaderToClassExample\obj\Debug\DataReaderToClassExample.pdb

@@ -1,0 +1,24 @@
+﻿@model CosmosBlog.Models.Tag
+@{
+    ViewBag.Title = "Add Tag";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <h2>Add Tags</h2>
+        @Html.ActionLink("Return to Tags List", "ManageTags", "Admin")
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <p>Enter any number of tags, each one prefaced with a #</p>
+        @using (Html.BeginForm())
+        {
+            <div class="form-group">
+                <label>Tag Name</label>
+                @Html.TextBoxFor(m => m.TagName, new {@class = "form-control"})
+            </div>
+            <button type="submit" class="btn btn-sm btn-primary">Save</button>
+        }
+    </div>
+</div>

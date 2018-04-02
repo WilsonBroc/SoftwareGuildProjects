@@ -1,0 +1,5 @@
+C:\_repos\akron-dotnet-april-2016-materials\ADOSampleProjects\DataReaderToClassExample\Northwind.DataLayer\bin\Debug\Northwind.DataLayer.dll
+C:\_repos\akron-dotnet-april-2016-materials\ADOSampleProjects\DataReaderToClassExample\Northwind.DataLayer\bin\Debug\Northwind.DataLayer.pdb
+C:\_repos\akron-dotnet-april-2016-materials\ADOSampleProjects\DataReaderToClassExample\Northwind.DataLayer\obj\Debug\Northwind.DataLayer.csprojResolveAssemblyReference.cache
+C:\_repos\akron-dotnet-april-2016-materials\ADOSampleProjects\DataReaderToClassExample\Northwind.DataLayer\obj\Debug\Northwind.DataLayer.dll
+C:\_repos\akron-dotnet-april-2016-materials\ADOSampleProjects\DataReaderToClassExample\Northwind.DataLayer\obj\Debug\Northwind.DataLayer.pdb

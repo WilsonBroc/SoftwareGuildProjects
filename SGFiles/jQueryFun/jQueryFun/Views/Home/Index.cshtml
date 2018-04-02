@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 id="titleDiv">Movie Details</h2>
+
+<h3>Star Wars: The Force Awakens</h3>
+
+
+<div>
+    <p id="spoiler">I can't believe they killed Han Solo</p>
+    <input type="button" id="showSpoiler" value="Show Spoiler"/>
+</div>
+
+@section scripts{
+    <script>
+    $(document).ready(function() {
+        $('#spoiler').hide();
+
+        $('#showSpoiler')
+            .click(function () {
+                $('#showSpoiler').val('Hide Spoiler');
+                $('#spoiler').show();
+            });
+
+        $('#titleDiv')
+            .hover(function() {
+                $('#spoiler').hide();
+            });
+    });
+    </script>
+}
+

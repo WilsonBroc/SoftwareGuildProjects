@@ -1,0 +1,99 @@
+﻿@using System.Web.DynamicData
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href='https://fonts.googleapis.com/css?family=Poppins:400,700,600,500,300' rel='stylesheet' type='text/css'>
+    <link href="~/Content/summernote.css" rel="stylesheet"/>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="~/Scripts/summernote.min.js"></script>
+    <style>
+        .navbar-inverse .navbar-nav > li > a {
+            color: white;
+        }
+
+
+
+        .navbar-collapse.collapse {
+            float: right;
+            margin-top: 15px;
+            margin-right: 60px;
+        }
+
+
+        .manage {
+            color: red;
+        }
+    </style>
+</head>
+<body ng-controller ="myController">
+    <div class="navbar navbar-inverse navbar-static-top" style="margin-top:-50px">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="@Url.Action("Index", "Home")"><img src="https://solarsystem.nasa.gov/system/stellar_items/image_files/4_earth.jpg" style="max-height: 55px; margin-top: 10px; margin-bottom: 10px; margin-left: 120px" /></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="navOption"><a href="~/StaticPage/ViewSingleStaticPage/1">ABOUT</a></li>
+                    <li class="navOption"><a href="~/StaticPage/ViewSingleStaticPage/2">DISCLAIMER</a></li>
+                    <li class="navOption">@Html.ActionLink("BLOGS", "ViewAllPosts", "Blog")</li>
+                    @if (ViewContext.HttpContext.User.IsInRole("Admin") || ViewContext.HttpContext.User.IsInRole("Manager"))
+                    {
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">ADMIN<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li>@Html.ActionLink("Pending Posts", "AdminPageByStatus", "Admin", new {id = 1}, null)</li>
+                                <li>@Html.ActionLink("Approved Posts", "AdminPageByStatus", "Admin", new {id = 2}, null)</li>
+                                <li>@Html.ActionLink("Disapproved Posts", "AdminPageByStatus", "Admin", new {id = 3}, null)</li>
+                                <li>@Html.ActionLink("Incomplete Posts", "AdminPageByStatus", "Admin", new {id = 4}, null)</li>
+                                <li>@Html.ActionLink("Revisions Needed", "AdminPageByStatus", "Admin", new {id = 5}, null)</li>
+                                <li class="manage">@Html.ActionLink("Create Static Page", "AddStaticPage", "Admin")</li>
+                                <li class="manage">@Html.ActionLink("Add New Post", "AddNewPost", "Admin")</li>
+                                <li class="manage">@Html.ActionLink("Edit Existing Post", "EditPosts", "Admin")</li>
+                                <li class="manage">@Html.ActionLink("Manage Categories", "ManageCategories", "Admin")</li>
+                                <li class="manage">@Html.ActionLink("Manage Tags", "ManageTags", "Admin")</li>
+                            </ul>
+                        </li>
+                    }
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">MORE<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li ng-repeat="p in moreMenu"><a href="~/StaticPage/ViewSingleStaticPage/{{p.PageID}}">{{p.PageTitle}}</a></li>
+                        </ul>
+                    </li>               
+                    @*<li class="navOption">@Html.ActionLink("MORE", "Index", "Blog")</li>*@
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        @RenderBody()
+
+       
+        <div id="footer">
+            <footer>
+                <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            </footer>
+        </div>
+      
+    </div>
+<script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/angular-route.js"></script>
+    <script src="~/Scripts/CosmosAngular.js"></script>
+
+
+@Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

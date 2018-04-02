@@ -1,0 +1,123 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="673" measuredH="899" mockupW="633" mockupH="846">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="40" y="53" w="633" h="846" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+        <value>0</value>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::LinkBar" x="413" y="139" w="-1" h="-1" measuredW="237" measuredH="17" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>16777215</borderColor>
+        <color>16777215</color>
+        <selectedIndex>4</selectedIndex>
+        <size>11</size>
+        <text>Home%2C%20About%2C%20Disclaimer%2C%20Blog%2C%20Admin</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::SubTitle" x="55" y="139" w="109" h="-1" measuredW="106" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>COSMOS</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::SubTitle" x="239" y="566" w="85" h="-1" measuredW="78" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Post%20Title</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Paragraph" x="239" y="587" w="220" h="53" measuredW="275" measuredH="80" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Content%20here%2C%20content%20here%2C%20making%20it%20look%20like%20readable%20English.%20Many%20desktop%20publishing...</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::SubTitle" x="239" y="668" w="79" h="-1" measuredW="78" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Post%20Title</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Paragraph" x="240" y="688" w="220" h="47" measuredW="275" measuredH="80" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>It%20was%20popularised%20in%20the%201960s%20with%20the%20release%20of%20Letraset%20sheets%20containing%20Lorem%20Ipsum%20passages...</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Title" x="115" y="509" w="256" h="-1" measuredW="245" measuredH="43" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Recent%20Posts</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::HRule" x="45" y="793" w="619" h="-1" measuredW="100" measuredH="10" zOrder="10" locked="false" isInGroup="-1"/>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Label" x="345" y="826" w="68" h="-1" measuredW="68" measuredH="21" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>Footer%20Text</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Label" x="332" y="566" w="141" h="-1" measuredW="132" measuredH="21" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1/1/2016%20by%20%5Busername%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Label" x="332" y="668" w="141" h="-1" measuredW="132" measuredH="21" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1/1/2016%20by%20%5Busername%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::SubTitle" x="527" y="520" w="93" h="-1" measuredW="90" measuredH="21" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Categories</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Paragraph" x="527" y="552" w="108" h="164" measuredW="275" measuredH="80" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <text>%5Bspace%5D%20%5Bplanets%5D%20%5Bvenus%5D%20%5Baliens%5D%20%5Bmars%5D%20%5Bnews%5D%20%5Btheory%5D%20%5Bscience%5D%20%5Bx-files%5D%20%5Bspace%5D%20%5Bplanets%5D%20%5Bastronauts%5D%20%5Baliens%5D%20%5Bmars%5D%20%5Bnews%5D%20%5Btheory%5D%20%5Bscience%5D%20%5Bx-files%5D%20%5Bspace%5D%20%5Bplanets%5D%20%5Bastronauts%5D%20%5Baliens%5D%20%5Bmars%5D%20%5Bnews%5D%20%5Btheory%5D%20%5Bscience%5D%20%5Bx-files%5D%20%5Bspace%5D%20%5Bplanets%5D%20%5Bastronauts%5D%20%5Baliens%5D%20%5Bmars%5D%20%5Bnews%5D%20%5Btheory%5D%20%5Bscience%5D%20%5Bx-files%5D%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Label" x="88" y="662" w="-1" h="-1" measuredW="21" measuredH="81" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>14540253</color>
+        <text>%28width%3A%20100%25%29</text>
+        <textOrientation>up</textOrientation>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Label" x="88" y="559" w="-1" h="-1" measuredW="21" measuredH="81" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>14540253</color>
+        <text>%28width%3A%20100%25%29</text>
+        <textOrientation>up</textOrientation>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Image" x="115" y="566" w="97" h="67" measuredW="565" measuredH="318" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <src>./assets/Mars.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::Image" x="115" y="668" w="99" h="69" measuredW="660" measuredH="441" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <src>./assets/Spaceship.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Image" x="42" y="127" w="628" h="353" measuredW="1920" measuredH="1080" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/Astronaut.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::Canvas" x="41" y="795" w="632" h="81" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

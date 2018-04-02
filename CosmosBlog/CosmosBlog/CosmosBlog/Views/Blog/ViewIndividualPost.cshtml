@@ -1,0 +1,62 @@
+﻿@using CosmosBlog.Data.Repositories
+@model CosmosBlog.Models.Post
+
+@{
+    ViewBag.Title = "ViewIndividualPost";
+    
+}
+
+<style>
+    .container {
+        max-width: 100%;
+        padding: 0;
+        min-height: 100%;
+    }
+
+    p {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+
+    .tags {
+        font-size: 11px;
+    }
+</style>
+
+<div class="container">
+    
+    <div class="row">
+        <div class="col-sm-1"> @* Empty div for left side *@</div>
+        <div class="col-sm-9">
+
+            @* This is where the post begins *@
+            <br/>
+            <div class="col-sm-10" style="padding-right: 100px">
+                @Html.ActionLink("Return To Posts", "ViewAllPosts", "Blog")<br /><br />
+                <h2>@Model.Title</h2>
+                <h4>@Model.Description</h4>
+                <span>Date Posted: @Model.DateCreated.Date.ToShortDateString()</span>
+
+                @foreach (var tag in Model.PostTags)
+                {
+                    <a href="/Blog/GetPostsWithTag/@tag.TagID"><span class="tags">#@tag.TagName</span></a>
+                }
+                <br/><br/>
+                <img src="@Model.PostImage" style="width: 75%; padding-bottom: 30px"/><br/>
+
+                @Html.Raw(@Model.PostContent)
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+

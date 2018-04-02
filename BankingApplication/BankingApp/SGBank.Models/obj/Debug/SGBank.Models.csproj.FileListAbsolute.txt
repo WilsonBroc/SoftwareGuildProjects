@@ -1,0 +1,6 @@
+C:\Users\23601\Desktop\MyStuff\softwareguildprojects\BankingApplication\SGBank - Broc\SGBank.Models\bin\Debug\SGBank.Models.dll
+C:\Users\23601\Desktop\MyStuff\softwareguildprojects\BankingApplication\SGBank - Broc\SGBank.Models\bin\Debug\SGBank.Models.pdb
+C:\Users\23601\Desktop\MyStuff\softwareguildprojects\BankingApplication\SGBank - Broc\SGBank.Models\obj\Debug\SGBank.Models.csprojResolveAssemblyReference.cache
+C:\Users\23601\Desktop\MyStuff\softwareguildprojects\BankingApplication\SGBank - Broc\SGBank.Models\obj\Debug\SGBank.Models.csproj.CoreCompileInputs.cache
+C:\Users\23601\Desktop\MyStuff\softwareguildprojects\BankingApplication\SGBank - Broc\SGBank.Models\obj\Debug\SGBank.Models.dll
+C:\Users\23601\Desktop\MyStuff\softwareguildprojects\BankingApplication\SGBank - Broc\SGBank.Models\obj\Debug\SGBank.Models.pdb

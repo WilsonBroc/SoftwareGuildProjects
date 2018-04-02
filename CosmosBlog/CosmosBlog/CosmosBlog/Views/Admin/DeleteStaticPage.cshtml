@@ -1,0 +1,22 @@
+﻿@model CosmosBlog.Models.StaticPage
+
+@{
+    ViewBag.Title = "DeleteStaticPage";
+}
+
+<h1>Delete Page</h1>
+<h3>Are you sure you want to delete this Page?</h3>
+<div>
+    <h4>@Model.PageTitle</h4>
+
+
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(a=>a.PageID)
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to Page", "ViewSingleStaticPage", "StaticPage", new {id = Model.PageID}, null)
+        </div>
+    }
+</div>

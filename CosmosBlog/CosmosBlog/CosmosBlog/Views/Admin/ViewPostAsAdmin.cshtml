@@ -1,0 +1,113 @@
+﻿@model CosmosBlog.Models.Post
+
+@{
+    ViewBag.Title = "ViewPostAsAdmin";
+}
+
+<style>
+    .container {
+        max-width: 100%;
+        padding: 0;
+        min-height: 100%;
+    }
+
+    p {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+
+    .tags {
+        font-size: 11px;
+    }
+</style>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-sm-1"> @* Empty div for left side *@</div>
+        <div class="col-sm-9">
+
+            @* This is where the post begins *@
+            <br />
+            <div class="col-sm-10" style="padding-right: 100px">
+                <a href="/Admin/AdminPageByStatus/@Model.StatusID/">Return to Admin</a><br /><br />
+                <h2>@Model.Title</h2>
+                <h4>@Model.Description</h4>
+                <span>@Model.DateCreated.Date.ToShortDateString() by <a href="#">Peter Parker</a></span><br />
+
+                @foreach (var tag in Model.PostTags)
+                {
+                    <a href="/Blog/GetPostsWithTag/@tag.TagID"><span class="tags">#@tag.TagName</span></a>
+                }
+                <br /><br />
+                <img src="@Model.PostImage" style="width: 75%; padding-bottom: 30px" /><br />
+
+                @Html.Raw(@Model.PostContent)
+
+
+            </div>
+            <br />
+
+
+        </div>
+
+
+
+    </div>
+    <div class="row" style="padding-left: 10px; margin-top: 40px">
+        <div class="col-sm-1"> @* Empty div for left side *@</div>
+        <div class="col-sm-9">
+            <h2>Comments: </h2>
+            @using (Html.BeginForm())
+            {
+                @Html.HiddenFor(a=>a.PostID)
+                if (ViewContext.HttpContext.User.IsInRole("Admin"))
+                {
+                    @Html.TextAreaFor(a => a.Comments, new { style = "min-width:550px; min-height: 300px", @class = "form-control" })
+                    <br /><button type="submit" class="btn btn-primary btn-sm">Save Comments</button>
+                }
+                else if (ViewContext.HttpContext.User.IsInRole("Manager"))
+                {
+                    @Html.HiddenFor(a=>a.Comments)
+                    @Model.Comments
+                }
+
+            }
+            <br />
+            @if (Model.StatusID == 1 && ViewContext.HttpContext.User.IsInRole("Admin"))
+            {
+                <span>
+                    
+                    @Html.ActionLink("Approve", "ApprovePost", "Admin", new { id = @Model.PostID }, new { @class = "btn btn-primary btn-success" })
+                    @Html.ActionLink("Disapprove", "DisapprovePost", "Admin", new { id = @Model.PostID }, new { @class = "btn btn-primary btn-danger" })
+                    @Html.ActionLink("Needs Revisions", "NeedRevisionsPost", "Admin", new { id = @Model.PostID }, new { @class = "btn btn-primary btn-warning" })
+                </span>
+            }
+            @if (Model.StatusID == 2 && ViewContext.HttpContext.User.IsInRole("Admin"))
+            {
+                <span>
+                    
+                    @Html.ActionLink("Disapprove", "DisapprovePost", "Admin", new {id = @Model.PostID}, new {@class = "btn btn-primary btn-danger"})
+                    @Html.ActionLink("Needs Revisions", "NeedRevisionsPost", "Admin", new {id = @Model.PostID}, new {@class = "btn btn-primary btn-warning"})
+                </span>
+            }
+            @if (Model.StatusID == 3 && ViewContext.HttpContext.User.IsInRole("Admin"))
+            {
+                <span>
+                    @Html.ActionLink("Approve", "ApprovePost", "Admin", new { id = @Model.PostID }, new { @class = "btn btn-primary btn-success" })
+                    @Html.ActionLink("Needs Revisions", "NeedRevisionsPost", "Admin", new { id = @Model.PostID }, new { @class = "btn btn-primary btn-warning" })
+                </span>
+            }
+            @if (Model.StatusID == 5 && (ViewContext.HttpContext.User.IsInRole("Admin") || ViewContext.HttpContext.User.IsInRole("Manager")))
+            {
+                <span>
+                    @Html.ActionLink("Submit For Approval", "SubmitForApprovalPost", "Admin", new { id = @Model.PostID }, new { @class = "btn btn-primary btn-success" })
+                </span>
+            }
+        </div>
+    </div>
+</div>

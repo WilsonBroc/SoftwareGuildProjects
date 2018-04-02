@@ -1,0 +1,6 @@
+C:\_repos\akron-dotnet-april-2016-materials\ADOSampleProjects\DataReaderExample\DataReaderExample\bin\Debug\DataReaderExample.exe.config
+C:\_repos\akron-dotnet-april-2016-materials\ADOSampleProjects\DataReaderExample\DataReaderExample\bin\Debug\DataReaderExample.exe
+C:\_repos\akron-dotnet-april-2016-materials\ADOSampleProjects\DataReaderExample\DataReaderExample\bin\Debug\DataReaderExample.pdb
+C:\_repos\akron-dotnet-april-2016-materials\ADOSampleProjects\DataReaderExample\DataReaderExample\obj\Debug\DataReaderExample.csprojResolveAssemblyReference.cache
+C:\_repos\akron-dotnet-april-2016-materials\ADOSampleProjects\DataReaderExample\DataReaderExample\obj\Debug\DataReaderExample.exe
+C:\_repos\akron-dotnet-april-2016-materials\ADOSampleProjects\DataReaderExample\DataReaderExample\obj\Debug\DataReaderExample.pdb

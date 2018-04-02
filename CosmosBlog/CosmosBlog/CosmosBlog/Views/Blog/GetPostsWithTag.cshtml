@@ -1,0 +1,48 @@
+﻿@model IEnumerable<CosmosBlog.Models.Post>
+
+@{
+    ViewBag.Title = "GetPostsWithTag";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-1"> @*Empty div for left side*@</div>
+        <div class="col-sm-9">
+
+            @* This is where the posts begin*@
+            <br />
+            <h1>Similar Tagged Posts</h1>
+            <div class="col-sm-10">
+                @foreach (var post in Model.ToList())
+                {
+                    <div class="row" style="margin-bottom: 20px">
+                        <div class="col-sm-4">
+                            <a href="~/Blog/ViewIndividualPost/@post.PostID"><img src="@post.PostImage" style="width: 100%;" /></a>
+                        </div>
+                        <div class="col-sm-6" style="margin-bottom: 20px">
+                            <h3>@post.Title</h3>
+                            <h5>@*Date:*@ @post.DateCreated by <a href="#">@*User:*@Peter Parker</a></h5>
+                            <p>@*Description: *@ @post.Description</p>
+                        </div>
+                    </div>
+                }
+               
+            </div>
+            <div class="col-sm-2">
+                <div class="row">
+                    
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-4">
+
+    </div>
+</div>
+

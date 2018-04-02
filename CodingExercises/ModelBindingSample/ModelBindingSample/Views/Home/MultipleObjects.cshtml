@@ -1,0 +1,18 @@
+﻿@model List<ModelBindingSample.Models.Address>
+@{
+    ViewBag.Title = "MultipleObjects";
+}
+
+<h2>MultipleObjects</h2>
+
+@foreach (var address in Model)
+{
+    <hr/>
+    <p>
+        <ul>
+            <li>@address.City</li>
+            <li>@address.State</li>
+            <li>@address.Zip</li>
+        </ul>
+    </p>
+}

@@ -1,0 +1,33 @@
+﻿@model ContactList.Models.Contact
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add</title>
+</head>
+<body>
+<div>
+    @*<form action="/home/addcontact" method="post">*@
+    @using (Html.BeginForm("AddContact", "Home", FormMethod.Post))
+    {
+        <p>
+            <label>Name</label>
+            @*<input type="text" id="Name" name="Name"/>*@
+            @Html.TextBoxFor(m => m.Name)
+        </p>
+        <p>
+            <label>Phone</label>
+            @*<input type="text" id="PhoneNumber" name="PhoneNumber"/>*@
+            @Html.TextBoxFor(m => m.PhoneNumber)
+        </p>
+        <button>Save</button>
+    }
+    @*</form>*@
+</div>
+</body>
+</html>

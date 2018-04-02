@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "AddHtml";
+}
+
+<h2>Add Html</h2>
+
+
+<div>
+    <p id="myText">This is some really cool text!</p>
+
+    <p id="myDynamicText"></p>
+    <p id="myDynamicText2"></p>
+</div>
+
+
+@section scripts{
+
+    <script>
+        $(document)
+            .ready(function() {
+                $('<p>This goes before my other p tag</p>').insertBefore('#myText');
+                $('<p>This goes after my other p tag</p>').insertAfter('#myText');
+
+                $('<strong>First! </strong>').prependTo('#myText');
+                $('<strong> Last!</strong>').appendTo('#myText');
+
+                $('#myDynamicText').html('<strong>Warning!</strong> This is new text in the p tag.');
+                $('#myDynamicText2').text('<strong>Warning!</strong> This is new text in the p tag.');
+            });
+    </script>
+
+}

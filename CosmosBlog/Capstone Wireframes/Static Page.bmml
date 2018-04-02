@@ -1,0 +1,120 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1325" measuredH="906" mockupW="1256" mockupH="879">
+  <controls>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="69" y="93" w="615" h="577" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+        <value>0</value>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::SubTitle" x="88" y="182" w="113" h="-1" measuredW="106" measuredH="27" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>COSMOS</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::HRule" x="69" y="573" w="602" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Label" x="364" y="598" w="76" h="-1" measuredW="68" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Footer%20Text</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::LinkBar" x="399" y="185" w="-1" h="-1" measuredW="265" measuredH="19" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>0</borderColor>
+        <selectedIndex>4</selectedIndex>
+        <text>Home%2C%20About%2C%20Disclaimer%2C%20Blog%2C%20Admin</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::Title" x="253" y="27" w="-1" h="-1" measuredW="246" measuredH="43" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>STATIC%20PAGE</text>
+      </controlProperties>
+    </control>
+    <control controlID="123" controlTypeID="com.balsamiq.mockups::Title" x="128" y="278" w="263" h="-1" measuredW="262" measuredH="31" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <size>28</size>
+        <text>STATIC%20PAGE%20TITLE</text>
+      </controlProperties>
+    </control>
+    <control controlID="143" controlTypeID="com.balsamiq.mockups::Paragraph" x="128" y="330" w="415" h="228" measuredW="275" measuredH="80" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>All%20content%20provided%20on%20this%20%22%5BSample%20Blog%20Disclaimer%5D%22%20blog%20is%20for%20informational%20purposes%20only.%20The%20owner%20of%20this%20blog%20makes%20no%20representations%20as%20to%20the%20accuracy%20or%20completeness%20of%20any%20information%20on%20this%20site%20or%20found%20by%20following%20any%20link%20on%20this%20site.%0A%20%0AThe%20owner%20of%20%5Bsampleblogdisclaimer.blogspot.com%5D%20will%20not%20be%20liable%20for%20any%20errors%20or%20omissions%20in%20this%20information%20nor%20for%20the%20availability%20of%20this%20information.%20The%20owner%20will%20not%20be%20liable%20for%20any%20losses%2C%20injuries%2C%20or%20damages%20from%20the%20display%20or%20use%20of%20this%20information.</text>
+      </controlProperties>
+    </control>
+    <control controlID="144" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="709" y="93" w="615" h="813" measuredW="450" measuredH="400" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+        <value>0</value>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="145" controlTypeID="com.balsamiq.mockups::SubTitle" x="728" y="182" w="113" h="-1" measuredW="106" measuredH="27" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>COSMOS</text>
+      </controlProperties>
+    </control>
+    <control controlID="146" controlTypeID="com.balsamiq.mockups::HRule" x="723" y="819" w="602" h="-1" measuredW="100" measuredH="10" zOrder="10" locked="false" isInGroup="-1"/>
+    <control controlID="147" controlTypeID="com.balsamiq.mockups::Label" x="970" y="844" w="76" h="-1" measuredW="68" measuredH="21" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Footer%20Text</text>
+      </controlProperties>
+    </control>
+    <control controlID="148" controlTypeID="com.balsamiq.mockups::LinkBar" x="1039" y="185" w="-1" h="-1" measuredW="265" measuredH="19" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>0</borderColor>
+        <selectedIndex>4</selectedIndex>
+        <text>Home%2C%20About%2C%20Disclaimer%2C%20Blog%2C%20Admin</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="149" controlTypeID="com.balsamiq.mockups::Title" x="866" y="27" w="-1" h="-1" measuredW="317" measuredH="43" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>ADD%20PAGE%20FORM</text>
+      </controlProperties>
+    </control>
+    <control controlID="150" controlTypeID="com.balsamiq.mockups::Title" x="768" y="278" w="212" h="-1" measuredW="208" measuredH="31" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <size>28</size>
+        <text>ADD%20NEW%20PAGE</text>
+      </controlProperties>
+    </control>
+    <control controlID="152" controlTypeID="com.balsamiq.mockups::Label" x="807" y="345" w="-1" h="-1" measuredW="29" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Title%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="153" controlTypeID="com.balsamiq.mockups::TextInput" x="851" y="342" w="205" h="-1" measuredW="79" measuredH="26" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="154" controlTypeID="com.balsamiq.mockups::TextArea" x="851" y="393" w="256" h="270" measuredW="200" measuredH="140" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="155" controlTypeID="com.balsamiq.mockups::Label" x="785" y="393" w="-1" h="-1" measuredW="51" measuredH="21" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Content%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="156" controlTypeID="com.balsamiq.mockups::FormattingToolbar" x="851" y="393" w="256" h="-1" measuredW="261" measuredH="29" zOrder="19" locked="false" isInGroup="-1"/>
+    <control controlID="157" controlTypeID="com.balsamiq.mockups::SubTitle" x="924" y="520" w="-1" h="-1" measuredW="97" measuredH="27" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <text>TinyMCE</text>
+      </controlProperties>
+    </control>
+    <control controlID="158" controlTypeID="com.balsamiq.mockups::Button" x="851" y="691" w="-1" h="-1" measuredW="64" measuredH="27" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>2848996</color>
+        <text>Publish</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

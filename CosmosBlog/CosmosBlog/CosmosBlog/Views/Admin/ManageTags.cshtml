@@ -1,0 +1,63 @@
+﻿@using CosmosBlog.Models
+@model List<CosmosBlog.Models.Tag>
+@{
+    ViewBag.Title = "Manage Tags";
+}
+<div class="col-sm-1"> @*Empty div for left side*@</div>
+    
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="col-sm-1"> @*Empty div for left side*@</div>
+        <div class="col-sm-11">
+            
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-1"> @*Empty div for left side*@</div>
+    <div class="col-xs-11">
+        <h1>Manage Blog Tags</h1>
+        @Html.ActionLink("Return Home", "Index", "Home")<br/><br/>
+        <table class="table table-striped" style="width: auto;">
+            <thead>
+            <tr>
+
+                <th>Tag Name</th>
+                <th>Options</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var tag in Model)
+            {
+                <tr>
+
+                    <td>@tag.TagName</td>
+                    <td>
+                        @Html.ActionLink("Edit", "EditTag", "Admin", new {id = tag.TagID}, null) |
+                        @Html.ActionLink("Delete", "DeleteTag", "Admin", new {id = tag.TagID}, null)
+                    </td>
+                </tr>
+
+            }
+            <tr><td>@Html.ActionLink("Create New Tag", "AddTag", "Admin", null, new {@class = "btn btn-primary"})</td></tr>
+            </tbody>
+        </table>
+
+
+    </div>
+</div>
+
+@section scripts{
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.1/summernote.css" rel="stylesheet">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.1/summernote.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#summernote').summernote({
+                height: 600
+            });
+        });
+
+       @*@model.PostContent =  $('#summernote').val();*@
+    </script>
+}

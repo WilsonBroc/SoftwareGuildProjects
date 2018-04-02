@@ -1,0 +1,112 @@
+﻿@using CosmosBlog.Models.SelectLists
+@model CosmosBlog.Models.Post
+
+@{
+    ViewBag.Title = "AddNewPost";
+    var categories = CategorySelectList.GetAllCategories();
+}
+
+<style>
+    .container {
+        max-width: 100%;
+        padding: 0;
+        min-height: 100%;
+    }
+    th {
+        float: right;
+        margin-right: 20px;
+        padding-bottom: 20px
+    }
+    td {
+        padding-bottom: 20px
+    }
+
+
+
+</style>
+<div>
+    <div class="row">
+        <div class="col-sm-1"> @*Empty div for left side*@</div>
+        <div class="col-sm-11">
+
+            @* This is where the posts begin*@
+            <br />
+            @*<div class="row">
+                <div class="col-xs-12">
+                    @Html.Partial("_AddCategoryModal")
+                </div>
+            </div>*@
+
+            @using (@Html.BeginForm())
+            {
+                <table>
+                    <tbody>
+                    <tr>
+                        <th></th>
+                        <td>
+                            <h1>Add New Post</h1></td>                        
+                    </tr>
+                    <tr>
+                        <th>Title: </th>
+                        <td>@Html.EditorFor(a => a.Title, new {@class = "form-control"})</td>
+                    </tr>
+                        <tr>
+                            <th>Category: </th>
+                            <td>
+                                @Html.DropDownListFor(a => a.CategoryID, new SelectList(categories, "CategoryID", "CategoryName"), new {id="categoryList"})
+                                @*<button type="button" class="btn btn-primary btn-sm" id="btnShowAddCategory">Add Category</button>*@
+                            </td>
+                        </tr>
+                    <tr>
+                        <th>Description: </th>
+                        <td>@Html.EditorFor(a => a.Description, new {@class = "form-control"})</td>
+                    </tr>
+                    <tr>
+                        <th>Featured Image: </th>
+                        <td>@Html.EditorFor(a => a.PostImage, new {@class = "form-control"})</td>
+                    </tr>
+                        <tr>
+                            <th>Tags(Begin with #): </th>
+                            <td>@Html.EditorFor(a => a.Tags, new { @class = "form-control" })</td>
+                        </tr>
+                    <tr>
+                        <th>Content: </th>
+                        <td>
+                            @Html.TextAreaFor(a => a.PostContent, new { id = "summernote" })
+                            @*<textarea id="summernote"></textarea>*@
+                            @*<div id="summernote">Enter content here...</div>*@
+                        </td>
+                    </tr>
+                    <tr>
+                        @*@Html.TextAreaFor(a=>a.PostContent, new {id= "summernote"})*@
+                        <th></th>
+                        <td><button type="submit" class="btn btn-success">Save</button></td>
+                    </tr>
+
+                    </tbody>
+                </table>
+
+
+
+            }
+
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+</div>
+
+
+
+@section scripts{
+<link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.1/summernote.css" rel="stylesheet">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.1/summernote.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#summernote').summernote({
+                height: 600
+            });
+        });
+
+       @*@model.PostContent =  $('#summernote').val();*@
+    </script>
+}
